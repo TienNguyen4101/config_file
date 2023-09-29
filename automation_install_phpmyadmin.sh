@@ -1,9 +1,9 @@
 sudo yum update -y
+yum install epel-release -y
 yum install wget -y
 yum install git -y
 yum install php -y
 yum install httpd -y
-yum install epel-release -y
 yum install phpmyadmin -y
 yum install expect -y
 sudo wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm

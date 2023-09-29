@@ -7,6 +7,8 @@ yum install epel-release -y
 yum install phpmyadmin -y
 yum install expect -y
 sudo wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
+yum install htop -y
+yum install nano -y
 #shut the fuckup firewall
 
 sudo systemctl stop firewalld

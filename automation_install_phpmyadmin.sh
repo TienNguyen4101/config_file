@@ -2,7 +2,15 @@ sudo yum update -y
 yum install epel-release -y
 yum install wget -y
 yum install git -y
-yum install php -y
+
+sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum -y install https://rpms.remirepo.net/enterprise/remi-release-7.rpm
+sudo yum -y install yum-utils
+sudo yum-config-manager --enable remi-php74
+sudo yum update -y
+sudo yum install php php-cli -y
+sudo yum install php php-cli php-fpm php-mysqlnd php-zip php-devel php-gd php-mcrypt php-mbstring php-curl php-xml php-pear php-bcmath php-json -y
+
 yum install httpd -y
 yum install phpmyadmin -y
 yum install expect -y

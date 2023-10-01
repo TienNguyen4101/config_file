@@ -1,8 +1,8 @@
 <?php
 
 $sleepInSecond = 5;
-$apiToken = "6369084280:AAFxZhzm4CrUznvj7ZAENCznn3AR-JKqg7M";
-$chat_id = '@test_message123';
+$apiToken = "your_api_token";
+$chat_id = 'your_chat_id';
 $servername = "localhost";
 $username = "root";
 $password = "Admin@123";
